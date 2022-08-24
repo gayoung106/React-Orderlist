@@ -1,13 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import SidebarLeft from "./components/Sidebar/SidebarLeft";
+import SidebarRight from "./components/Sidebar/SidebarRight";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="gray-background">
-      <img src={logo} lat="logo" />
-      <h2> Let's develop management system!</h2>
-    </div>
+    <>
+      <Header />
+      <Navbar />
+      <SidebarLeft />
+      <SidebarRight />
+      <Footer />
+    </>
   );
 }
 
