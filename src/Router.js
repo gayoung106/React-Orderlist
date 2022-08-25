@@ -1,5 +1,5 @@
 import React from 'react'
-import Dashboard from './navitem/Dashboard'
+import Dashboard from './navitem/Dashboard/Dashboard'
 import { Routes } from 'react-router-dom'
 import Customerlist from './navitem/Customerlist'
 import Productlist from './navitem/Productlist'
@@ -13,7 +13,6 @@ import Datalist from './navitem/Datalist'
 import Manageredit from './navitem/Manageredit'
 import SidebarRight from './components/Sidebar/SidebarRight'
 import SidebarLeft from './components/Sidebar/SidebarLeft'
-import Content from './components/Content'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
@@ -25,24 +24,24 @@ const Router = () => {
     <>
     <BrowserRouter>
     <Header />
-    <Navbar />
-    <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/" element={<Memberlist />} />
-        <Route path="/" element={<Productlist />} />
-        <Route path="/" element={<Orderlist />} />
-        <Route path="/" element={<Displaylist />} />
-        <Route path="/" element={<Promotionlist />} />
-        <Route path="/" element={<Vendorlist />} />
-        <Route path="/" element={<Customerlist />} />
-        <Route path="/" element={<Systemlist />} />
-        <Route path="/" element={<Datalist />} />
-        <Route path="/" element={<Manageredit />} />
-    </Routes>
-    <SidebarLeft />
-    <Content />
-    <SidebarRight />
+        <Navbar />
+        <SidebarLeft />
+        <SidebarRight />
+        <Routes>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/memberlist" element={<Memberlist />} />
+            <Route path="/productlist" element={<Productlist />} />
+            <Route path="/" element={<Orderlist />} />
+            <Route path="/displaylist" element={<Displaylist />} />
+            <Route path="/promotionlist" element={<Promotionlist />} />
+            <Route path="/vendorlist" element={<Vendorlist />} />
+            <Route path="/customerlist" element={<Customerlist />} />
+            <Route path="/systemlist" element={<Systemlist />} />
+            <Route path="/datalist" element={<Datalist />} />
+            <Route path="/manageredit" element={<Manageredit />} />
+        </Routes>
     <Footer />
+
 
     </BrowserRouter>
     </>

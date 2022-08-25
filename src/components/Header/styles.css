@@ -5,14 +5,12 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
-  margin: 0;
 }
 
 .header-items {
   color: white;
   padding: 35px 10px;
   display: flex;
-
 }
 
 .header-items-right{

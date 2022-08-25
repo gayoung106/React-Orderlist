@@ -1,4 +1,6 @@
-.sidebar-warp {
+.sidebarRight-wrap {
     background-color: #000063;
-    width: 15%;
+    width: 13%;
+    height: calc(100vh - 137px);
+    float: right;
 }

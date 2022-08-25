@@ -4,7 +4,7 @@ import "./styles.css";
 const SidebarRight = () => {
   return ( 
   <>
-  <div className="sidebar-warp">SidebarRight</div>
+  <div className="sidebarRight-wrap">SidebarRight</div>
   </>
   );
 };

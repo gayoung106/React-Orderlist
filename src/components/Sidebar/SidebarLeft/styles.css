@@ -1,6 +1,7 @@
-.sidebar-wrap{
-    
+.sidebarLeft-wrap{
+    display: flex;
     width: 13%;
-    height: 100%;
+    height: calc(100vh - 137px);
     background-color: #000063;
+    float: left;
 }
