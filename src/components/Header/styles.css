@@ -1,4 +1,31 @@
 .header-wrap {
-  height: 50px;
+  height: 100px;
   width: 100%;
+  background-color: #512da8;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.header-items {
+  color: white;
+  padding: 35px 10px;
+  display: flex;
+
+}
+
+.header-items-right{
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+}
+
+.setting {
+  height: 35px;
+  width: 35px;
+}
+
+.menu-vertical {
+  height: 35px;
+  width: 10px;
 }

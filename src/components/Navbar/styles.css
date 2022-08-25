@@ -1,0 +1,21 @@
+.navbar-wrap{
+    width: 100%;
+    background-color:  #000051;
+    height: 37px;
+    color: #fff;
+    font-size: 10pt;
+}
+.nav-items{
+    display: flex;
+    padding: 10px;
+}
+
+.nav-item{
+    padding: 0px 7px;
+}
+
+a {
+    text-decoration : none;
+    color: #fff;
+
+}
