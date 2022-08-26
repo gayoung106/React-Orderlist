@@ -1,4 +1,5 @@
 import React from 'react'
+import './Manageredit.css'
 
 const Manageredit = () => {
   return (

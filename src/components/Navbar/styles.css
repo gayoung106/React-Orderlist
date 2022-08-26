@@ -1,21 +1,28 @@
 .navbar-wrap{
     width: 100%;
-    background-color:  #000051;
+    background-color:#000051;
     height: 37px;
     color: #fff;
     font-size: 10pt;
+ 
 }
 .nav-items{
     display: flex;
     padding: 10px;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .nav-item{
     padding: 0px 7px;
+    margin: 0px 15px;
 }
 
-a {
+.nav-item {
     text-decoration : none;
-    color: #fff;
-
+    color: #e6e9f4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
 }

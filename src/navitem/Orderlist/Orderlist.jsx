@@ -1,4 +1,5 @@
 import React from 'react'
+import './Orderlist.css'
 
 const Orderlist = () => {
   return (

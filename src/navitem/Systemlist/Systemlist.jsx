@@ -1,4 +1,5 @@
 import React from 'react'
+import './Systemlist.css'
 
 const Systemlist = () => {
   return (

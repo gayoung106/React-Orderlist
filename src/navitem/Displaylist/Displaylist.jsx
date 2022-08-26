@@ -1,4 +1,5 @@
 import React from 'react'
+import './Displaylist.css'
 
 const Displaylist = () => {
   return (

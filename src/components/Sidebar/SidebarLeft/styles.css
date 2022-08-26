@@ -1,7 +1,27 @@
 .sidebarLeft-wrap{
     display: flex;
-    width: 13%;
+    width: 215px;
     height: calc(100vh - 137px);
-    background-color: #000063;
+    background-color: #e8eaf6;
     float: left;
 }
+
+.side-left-items {
+    width: 100%;
+    margin-top: 50px;
+   
+}
+
+.side-left-item{
+
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+#item {
+    text-decoration: none;
+    color: #000051;
+    font-size: 15px;
+}
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Promotionlist.css'
 
 const Promotionlist = () => {
   return (
