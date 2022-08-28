@@ -1,0 +1,11 @@
+.order-wrapper-seven {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+    align-items: center;
+    /*gap: 50px;*/
+    /*justify-content: space-around;*/
+}

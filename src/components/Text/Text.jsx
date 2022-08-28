@@ -1,4 +1,4 @@
-import React, {useMemo} from 'react';
+import React, {useMemo, memo} from 'react';
 import './Text.css';
 
 const Text = (props) => {
@@ -18,4 +18,4 @@ const Text = (props) => {
     )
 }
 
-export default Text;
+export default memo(Text);

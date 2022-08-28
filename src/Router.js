@@ -33,30 +33,33 @@ const Router = () => {
     <BrowserRouter>
     <Header />
         <Navbar />
-        <SidebarLeft />
-        <SidebarRight />
-        <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/memberlist" element={<Memberlist />} />
-            <Route path="/productlist" element={<Productlist />} />
-            <Route path="/orderlist" element={<Orderlist />} />
-            <Route path="/displaylist" element={<Displaylist />} />
-            <Route path="/promotionlist" element={<Promotionlist />} />
-            <Route path="/vendorlist" element={<Vendorlist />} />
-            <Route path="/customerlist" element={<Customerlist />} />
-            <Route path="/systemlist" element={<Systemlist />} />
-            <Route path="/datalist" element={<Datalist />} />
-            <Route path="/manageredit" element={<Manageredit />} />
+        <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <SidebarLeft />
+            <Routes>
+                <Route path="/" element={<Dashboard />} />
+                <Route path="/memberlist" element={<Memberlist />} />
+                <Route path="/productlist" element={<Productlist />} />
+                <Route path="/orderlist" element={<Orderlist />} />
+                <Route path="/displaylist" element={<Displaylist />} />
+                <Route path="/promotionlist" element={<Promotionlist />} />
+                <Route path="/vendorlist" element={<Vendorlist />} />
+                <Route path="/customerlist" element={<Customerlist />} />
+                <Route path="/systemlist" element={<Systemlist />} />
+                <Route path="/datalist" element={<Datalist />} />
+                <Route path="/manageredit" element={<Manageredit />} />
 
-            <Route path="/totalorder" element={<Totalorder />} />
-            <Route path="/cancelorder" element={<Cancelorder />} />
-            <Route path="/exchangeorder" element={<Exchangeorder />} />
-            <Route path="/returnorder" element={<Returnorder />} />
-            <Route path="/refundorder" element={<Refundorder />} />
-            <Route path="/errororder" element={<Errororder />} />
-            <Route path="/errordeliverycode" element={<Errordeliverycode />} />
-            <Route path="/completedelivery" element={<Completedelivery />} />
-        </Routes>
+                <Route path="/totalorder" element={<Totalorder />} />
+                <Route path="/cancelorder" element={<Cancelorder />} />
+                <Route path="/exchangeorder" element={<Exchangeorder />} />
+                <Route path="/returnorder" element={<Returnorder />} />
+                <Route path="/refundorder" element={<Refundorder />} />
+                <Route path="/errororder" element={<Errororder />} />
+                <Route path="/errordeliverycode" element={<Errordeliverycode />} />
+                <Route path="/completedelivery" element={<Completedelivery />} />
+            </Routes>
+            <SidebarRight />
+
+        </div>
     <Footer />
 
 

@@ -1,0 +1,14 @@
+.order-wrapper-one {
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #DDDDDD;
+    align-items: center;
+
+    /*gap: 50px;*/
+    /*justify-content: space-around;*/
+}

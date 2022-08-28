@@ -7,6 +7,7 @@ import "./App.css";
 // import Footer from "./components/Footer";
 // import Content from "./components/Content";
 import Router from "./Router";
+import Totalorder from "./sideitem/Totalorder/Totalorder";
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
       {/*<Header />*/}
       {/*<Navbar />*/}
+
 
       {/*<div className="container">*/}
       {/*<SidebarLeft />*/}
