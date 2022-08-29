@@ -22,7 +22,7 @@ const OrderLineFive = () => {
     ];
 
     const OPTIONS3 = [
-        { id: 1, value: "state", name: "배송구분 선택" },
+        { id: 1, value: "state", name: "전체" },
         { id: 2, value: "1", name: "1" },
         { id: 3, value: "2", name: "2" },
         { id: 4, value: "3", name: "3" },
@@ -33,28 +33,31 @@ const OrderLineFive = () => {
         <>
             {/* 입점업체, 브랜드, 회원구분 */}
             <div className="order-wrapper-five">
-                <div style={{width: '200px', borderRight: '1px solid #000', }}>
-                    <Text content="입점업체" customStyle={{width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderRight: '2px solid #6f79a8', }}>
+                    <Text content="입점업체" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
                 </div>
-                <div style={{marginLeft: '28px', marginRight: '20px'}}>
-                    <SelectBox options={OPTIONS1} defaultValue="state"></SelectBox>
-                </div>
-
-
-                <div style={{width: '140px', borderLeft: '1px solid #000', }}>
-                    <Text content="브랜드" customStyle={{width: '100px', height: '70px', margin: '25px'}} />
+                <div style={{marginLeft: '28px', marginRight: '25px'}}>
+                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
                 </div>
 
-                <div style={{marginLeft: '28px', marginRight: '20px'}}>
-                    <SelectBox options={OPTIONS2} defaultValue="state"></SelectBox>
+
+                <div style={{width: '130px', borderLeft: '2px solid #6f79a8', }}>
+                    <Text content="브랜드" customStyle={{fontSize:'15px', width: '100px', height: '70px', margin: '25px'}} />
                 </div>
 
-                <div style={{width: '200px', borderLeft: '1px solid #000', }}>
-                    <Text content="회원구분" customStyle={{width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{marginLeft: '26px', marginRight: '25px'}}>
+                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
                 </div>
 
-                <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS3} defaultValue="state"></SelectBox>
+                <div style={{width: '130px', borderLeft: '2px solid #6f79a8', }}>
+                    <Text content="회원구분" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                </div>
+
+                <div style={{marginLeft: '25px'}}>
+                    <SelectBox options={OPTIONS3} customStyle={{width: '80px', height: '25px'}} defaultValue="state"></SelectBox>
+                </div>
+                <div >
+                    <Input customStyle={{width: '140px', margin: '5px',  height: '18px'}} />
                 </div>
 
             </div>

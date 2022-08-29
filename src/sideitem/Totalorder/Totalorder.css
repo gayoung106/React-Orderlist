@@ -1,9 +1,9 @@
 .table-wrap {
 
-    width: 100%;
-    margin-top: 35px;
-    margin-left: 230px;
-    margin: 100px;
+    width: 1300px;
+    margin: 50px;
+    table-layout: fixed;
+
 }
 
 .title {

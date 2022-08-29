@@ -10,6 +10,10 @@ import OrderLineFive from "./OrderLineFive";
 import OrderLineSix from "./OrderLineSix";
 import OrderLineSeven from "./OrderLineSeven";
 import OrderLineEight from "./OrderLineEight";
+import OrderLineButton from './OrderLineButton';
+import OrderList from './OrderList';
+
+
 
 const Totalorder = () => {
 
@@ -35,6 +39,9 @@ const Totalorder = () => {
                     <OrderLineSix />
                     <OrderLineSeven />
                     <OrderLineEight />
+                    <OrderLineButton />
+                    <OrderList />
+
                 </div>
             </div>
 

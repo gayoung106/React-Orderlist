@@ -1,0 +1,10 @@
+.button-wrapper {
+    float: right;
+    margin:10px;
+    display: flex;
+}
+.button-search {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+

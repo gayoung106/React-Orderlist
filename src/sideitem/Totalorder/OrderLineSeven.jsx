@@ -8,21 +8,21 @@ const OrderLineSeven = () => {
         <>
             {/* 상품명, 자사/타사 */}
             <div className="order-wrapper-seven">
-                <div style={{width: '200px', borderRight: '1px solid #000', }}>
-                    <Text content="상품명" customStyle={{width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderRight: '2px solid #6f79a8', }}>
+                    <Text content="상품명" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
                 </div>
                 <div >
-                    <Input customStyle={{width: '700px', margin: '25px'}} />
+                    <Input customStyle={{width: '472px', marginLeft: '25px', marginRight: '180px'}} />
                 </div>
 
 
 
-                <div style={{width: '200px', borderLeft: '1px solid #000', }}>
-                    <Text content="자사/타사" customStyle={{width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderLeft: '2px solid #6f79a8', }}>
+                    <Text content="자사/타사" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div >
-                    <Input customStyle={{width: '300px', margin: '25px'}} />
+                    <Input customStyle={{width: '220px', margin: '10px'}} />
                 </div>
 
             </div>

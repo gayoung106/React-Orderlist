@@ -24,16 +24,16 @@ const OrderLineOne = () => {
         <>
                 {/* 주문통합검색*/}
             <div className="order-wrapper-one">
-                <div style={{width: '200px', borderRight: '1px solid #000', }}>
-                    <Text content="주문통합검색" customStyle={{width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderRight: '2px solid #6f79a8', }}>
+                    <Text content="주문통합검색" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS1} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS2} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px'}} defaultValue="state" ></SelectBox>
                 </div>
 
             </div>
