@@ -1,3 +1,7 @@
 .orderList {
     flex: 4
 }
+
+.table-row {
+    background-color: #000;
+}

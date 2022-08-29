@@ -1,6 +1,5 @@
 import React from 'react';
 import Text from "../../components/Text/Text";
-import Input from "../../components/Input/Input";
 import './OrderLineSix.css';
 import SelectBox from "../../components/SelectBox/SelectBox";
 
