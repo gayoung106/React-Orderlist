@@ -1,8 +1,8 @@
 import React from 'react';
-import Text from "../../components/Text/Text";
-import Input from "../../components/Input/Input";
+import Text from "../../../components/Text/Text";
+import Input from "../../../components/Input/Input";
 import './OrderLineEight.css'
-import SelectBox from "../../components/SelectBox/SelectBox";
+import SelectBox from "../../../components/SelectBox/SelectBox";
 
 const OrderLineEight = () => {
     const OPTIONS1 = [

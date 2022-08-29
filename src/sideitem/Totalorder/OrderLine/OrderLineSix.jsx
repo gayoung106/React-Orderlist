@@ -1,7 +1,7 @@
 import React from 'react';
-import Text from "../../components/Text/Text";
+import Text from "../../../components/Text/Text";
 import './OrderLineSix.css';
-import SelectBox from "../../components/SelectBox/SelectBox";
+import SelectBox from "../../../components/SelectBox/SelectBox";
 
 const OrderLineSix = () => {
     const OPTIONS1 = [

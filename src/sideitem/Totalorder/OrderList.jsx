@@ -18,7 +18,7 @@ const columns = [
     sortable: false,
     width: 160,
     valueGetter: (params) =>
-      `${params.row.firstName || ''} ${params.row.lastName || ''}`,
+        `${params.row.firstName || ''} ${params.row.lastName || ''}`,
   },
 ];
 
@@ -36,14 +36,14 @@ const rows = [
 
 export default function DataTable() {
   return (
-    <div style={{ height: 400, width: '100%' }}>
-      <DataGrid
-        rows={rows}
-        columns={columns}
-        pageSize={10}
-        rowsPerPageOptions={[10]}
-        checkboxSelection
-      />
-    </div>
+      <div style={{ height: 400, width: '1300px', marginTop: '100px' }}>
+        <DataGrid
+            rows={rows}
+            columns={columns}
+            pageSize={5}
+            rowsPerPageOptions={[5]}
+            checkboxSelection
+        />
+      </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Text from "../../components/Text/Text";
+import Text from "../../../components/Text/Text";
 import './OrderLineOne.css'
-import SelectBox from "../../components/SelectBox/SelectBox";
+import SelectBox from "../../../components/SelectBox/SelectBox";
 
 const OrderLineOne = () => {
     const OPTIONS1 = [
@@ -24,16 +24,16 @@ const OrderLineOne = () => {
         <>
                 {/* 주문통합검색*/}
             <div className="order-wrapper-one">
-                <div style={{width: '150px', borderRight: '2px solid #6f79a8', }}>
-                    <Text content="주문통합검색" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderRight: '2px solid #dddddd', }}>
+                    <Text content="주문통합검색" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px'}} defaultValue="state" ></SelectBox>
+                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state" ></SelectBox>
                 </div>
 
             </div>

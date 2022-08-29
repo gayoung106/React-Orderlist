@@ -1,6 +1,6 @@
 import React from 'react';
-import Text from "../../components/Text/Text";
-import Input from "../../components/Input/Input";
+import Text from "../../../components/Text/Text";
+import Input from "../../../components/Input/Input";
 import './OrderLineSeven.css' ;
 
 const OrderLineSeven = () => {

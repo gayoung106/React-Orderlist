@@ -1,16 +1,16 @@
 import React from 'react'
 import './Totalorder.css'
-import './OrderLineOne.css';
-import OrderLineOne from "./OrderLineOne";
-import OrderLineTwo from "./OrderLineTwo";
+import './OrderLine/OrderLineOne.css';
+import OrderLineOne from "./OrderLine/OrderLineOne";
+import OrderLineTwo from "./OrderLine/OrderLineTwo";
 import Text from "../../components/Text/Text";
-import OrderLineThree from "./OrderLineThree";
-import OrderLineFour from "./OrderLineFour";
-import OrderLineFive from "./OrderLineFive";
-import OrderLineSix from "./OrderLineSix";
-import OrderLineSeven from "./OrderLineSeven";
-import OrderLineEight from "./OrderLineEight";
-import OrderLineButton from './OrderLineButton';
+import OrderLineThree from "./OrderLine/OrderLineThree";
+import OrderLineFour from "./OrderLine/OrderLineFour";
+import OrderLineFive from "./OrderLine/OrderLineFive";
+import OrderLineSix from "./OrderLine/OrderLineSix";
+import OrderLineSeven from "./OrderLine/OrderLineSeven";
+import OrderLineEight from "./OrderLine/OrderLineEight";
+import OrderLineButton from './OrderLine/OrderLineButton';
 import OrderList from './OrderList';
 
 
@@ -41,6 +41,7 @@ const Totalorder = () => {
                     <OrderLineEight />
                     <OrderLineButton />
                     <OrderList />
+
 
                 </div>
             </div>
