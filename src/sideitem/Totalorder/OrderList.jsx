@@ -1,7 +1,21 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import {useRef} from "react";
+import { useDownloadExcel } from 'react-export-table-to-excel';
+import Button from "../../components/Button/Button";
+import './OrderList.css';
+
 
 const OrderList = () => {
+
+  const tableRef = useRef(null);
+
+  const { onDownload } = useDownloadExcel({
+    currentTableRef: tableRef.current,
+    filename: 'Users table',
+    sheet: 'Users'
+  })
+
   const columns = [
     { field: 'date', headerName: '주문일시', width: 77},
     { field: 'user1', headerName: '주문자', width: 77 },
@@ -34,14 +48,25 @@ const OrderList = () => {
   ];
 
   return (
-    <div style={{ height: 400, width: '1300px', marginTop: '100px'}}>
-    <DataGrid aline="center"
+
+
+    <div style={{ height: 400, width: '1300px', marginTop: '20px'}}>
+
+    <DataGrid inputRef={tableRef} aline="center"
       rows={rows}
       columns={columns}
       pageSize={5}
       rowsPerPageOptions={[5]}
       checkboxSelection
     />
+      <div className="list-button-wrapper">
+        <div>
+          <Button className="delivery-total-upload" >송장일괄등록</Button>
+        </div>
+        <div>
+          <Button onClick={onDownload}> 엑셀다운로드 </Button>
+        </div>
+      </div>
   </div>
   )
 }

@@ -1,16 +1,18 @@
 import React from 'react'
 import Text from '../Text/Text'
 
-const Title = () => {
+const Title = (props) => {
+    const { content } = props;
+
   return (
     <>
     <div className="title">
-        <Text fontSize="25px" />
+        <Text content={content} fontSize="25px" />
     </div>
 
     <div className="sub-title">
         <img className="check" alt="check-logo" src="img/check.png" />
-        <Text fontSize="20px" margin="10px" />
+        <Text content={content} fontSize="20px" margin="10px" />
     </div>
     </>
   )

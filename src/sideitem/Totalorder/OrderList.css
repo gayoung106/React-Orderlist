@@ -1,0 +1,14 @@
+.list-button-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 10px;
+    float: right;
+    margin:20px;
+}
+.excel-download {
+    margin-left: 10px;
+    margin-right: 20px;
+}
