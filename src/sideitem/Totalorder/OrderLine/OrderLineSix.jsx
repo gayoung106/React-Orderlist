@@ -32,24 +32,24 @@ const OrderLineSix = () => {
         <>
             {/* 카테고리, 상품유형 */}
             <div className="order-wrapper-six">
-                <div style={{width: '150px', borderRight: '2px solid #6f79a8', }}>
-                    <Text content="카테고리" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderRight: '2px solid #dddddd', }}>
+                    <Text content="카테고리" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
                 <div style={{marginLeft: '28px', marginRight: '180px'}}>
-                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
 
 
-                <div style={{width: '150px', borderLeft: '2px solid #6f79a8', }}>
-                    <Text content="상품유형" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                <div style={{width: '150px', borderLeft: '2px solid #dddddd', }}>
+                    <Text content="상품유형" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div style={{marginLeft: '5px'}}>
-                    <SelectBox options={OPTIONS3} customStyle={{width: '80px', height: '25px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS3} customStyle={{width: '80px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
             </div>

@@ -9,7 +9,7 @@ const OrderLineTwo = () => {
             {/* 주문일자*/}
             <div className="order-wrapper-two">
                 <div style={{width: '150px', borderRight: '2px solid #dddddd', }}>
-                    <Text content="주문일자" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                    <Text content="주문일자" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div>

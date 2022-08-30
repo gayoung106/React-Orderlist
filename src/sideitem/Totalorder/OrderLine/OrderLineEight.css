@@ -4,8 +4,32 @@
     flex-direction: row;
     height: 40px;
     width: 100%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #dddddd;
     align-items: center;
     /*gap: 50px;*/
     /*justify-content: space-around;*/
 }
+
+label {
+    font-size: 13px;
+    line-height: 1rem;
+    cursor: pointer;
+    padding: 0.5em 0.4em;
+    vertical-align: middle;
+  }
+  
+  span {
+    vertical-align: center;
+  }
+  
+  [type="radio"] {
+    vertical-align: middle;
+    /* appearance: none; */
+    border: max(2px, 0.1em) solid gray;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    /* transition: border 0.5s ease-in-out; */
+  }
+
+  

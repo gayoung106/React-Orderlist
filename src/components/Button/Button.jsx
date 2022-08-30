@@ -14,9 +14,9 @@ const StyledButton = styled.button`
 
 
 
-background: ${palette.puple[0]};
+background: ${palette.blueGray[0]};
   &:hover {
-    background: ${palette.puple[1]};
+    background: ${palette.blueGray[2]};
   }
 `;
 

@@ -9,7 +9,7 @@ const OrderLineThree = () => {
             {/* 주문자, 수령인명, 아이디 */}
             <div className="order-wrapper-four">
                 <div style={{width: '150px', borderRight: '2px solid #dddddd', }}>
-                    <Text content="주문자" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                    <Text content="주문자" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
                 <div >
                     <Input customStyle={{width: '220px', height:'20px', margin: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} />
@@ -17,7 +17,7 @@ const OrderLineThree = () => {
 
 
                 <div style={{width: '130px', borderLeft: '2px solid #dddddd', }}>
-                    <Text content="수령인명" customStyle={{fontSize:'15px', width: '100px', height: '70px', margin: '25px'}} />
+                    <Text content="수령인명" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div >
@@ -25,7 +25,7 @@ const OrderLineThree = () => {
                 </div>
 
                 <div style={{width: '130px', borderLeft: '2px solid #dddddd', }}>
-                    <Text content="아이디" customStyle={{fontSize:'15px', width: '200px', height: '70px', margin: '25px'}} />
+                    <Text content="아이디" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
                 <div >
