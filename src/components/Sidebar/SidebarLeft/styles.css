@@ -1,28 +1,32 @@
-.sidebarLeft-wrap{
-    display: flex;
-    width: 215px;
-    height: calc(100vh - 137px);
-    background-color: #e8eaf6;
+.sidebarLeft{
+    padding-top: 50px;
+    width: 180px;
+    max-width: 100%;
+    height: calc(130vh - 137px);
+    background-color: #000051;
     float: left;
-
 }
 
-.side-left-items {
-    width: 100%;
-    margin-top: 50px;
-   
-}
-
-.side-left-item{
-
+.sideLeftBar-item { 
+    display:grid;
+    width: 180px;
     height: 40px;
-    margin-left: 20px;
+    align-items:center;
+    
+
+}
+
+.sideLeftBar-item:hover {
+    background-color: blue;
+}
+
+p {
+    margin: 0;
+    padding-left: 15px;
+    color: #fff;
+    font-family: "Welcome";
 }
 
 
-#item {
-    text-decoration: none;
-    color: #000051;
-    font-size: 15px;
-}
+
 

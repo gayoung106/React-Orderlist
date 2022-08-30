@@ -36,7 +36,7 @@ const OrderLineEight = () => {
                     <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state" disabled ></SelectBox>
                 </div>
                 <div>
-                    <label style={{marginRight: '78px'}}>
+                    <label style={{marginRight: '92px'}}>
                     <CheckBox /> 포인트사용
                     </label>
                 </div>

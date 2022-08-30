@@ -4,18 +4,18 @@ import './SelectBox.css'
 
 
 const SelectBox = (props) => {
-    const { disabled, width, height, backgroundColor, className, padding, margin, customStyle } = props;
+    const { disabled, width, height, backgroundColor, className, padding, margin, fontFamily, customStyle } = props;
 
     const style = useMemo(() => {
         return {
-            disabled, width, height, backgroundColor, className, padding, margin, ...customStyle
+            disabled, width, height, backgroundColor, className, padding, margin, fontFamily, ...customStyle
         }
-    }, [disabled, width, height, backgroundColor, className, padding, margin, customStyle])
+    }, [disabled, width, height, backgroundColor, className, padding, margin, fontFamily, customStyle])
 
 
     return (
         <select disabled={disabled} width={width} height={height} backgroundColor={backgroundColor}
-        className={className} padding={padding} margin={margin} style={style}>
+        className={className} padding={padding} margin={margin} fontFamily={fontFamily} style={style}>
             {props.options.map((option) => (
                 <option
                     key={option.id}

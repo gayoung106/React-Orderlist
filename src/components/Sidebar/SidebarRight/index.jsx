@@ -4,7 +4,11 @@ import "./styles.css";
 const SidebarRight = () => {
   return ( 
   <>
-  <div className="sidebarRight-wrap">SidebarRight</div>
+  <div className="sidebarRight">
+  <div className="sideLeftBar-item">
+      <p>SideRight bar</p>
+    </div>
+  </div>
   </>
   );
 };

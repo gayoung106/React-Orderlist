@@ -12,6 +12,7 @@ import OrderLineSeven from "./OrderLine/OrderLineSeven";
 import OrderLineEight from "./OrderLine/OrderLineEight";
 import OrderLineButton from './OrderLine/OrderLineButton';
 import OrderList from './OrderList';
+import OrderListButton from './OrderListButton';
 
 
 
@@ -42,6 +43,7 @@ const Totalorder = () => {
                     <OrderLineEight />
                     <OrderLineButton />
                     <OrderList />
+                    <OrderListButton />
 
 
                 </div>

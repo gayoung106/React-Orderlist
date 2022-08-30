@@ -34,7 +34,7 @@ const Router = () => {
     <Header />
         <Navbar />
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
-            <SidebarLeft />
+            <SidebarLeft></SidebarLeft>
             <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/memberlist" element={<Memberlist />} />

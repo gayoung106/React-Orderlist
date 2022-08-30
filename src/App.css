@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+@font-face {
+    font-family: "Welcome";
+    src: url(./fonts/웰컴체\ Regular.ttf);
+}
