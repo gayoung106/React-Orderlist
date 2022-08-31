@@ -3,6 +3,9 @@ import './Completedelivery.css'
 import Title from '../../components/Title/Title'
 import CompletedLineOne from './CompletedLine/CompletedLineOne'
 import OrderLineButton from '../Totalorder/OrderLine/OrderLineButton'
+import CompletedList from './CompletedLine/CompletedList'
+
+
 
 const Completedelivery = () => {
   return (
@@ -12,6 +15,7 @@ const Completedelivery = () => {
        <div className="completed-wrap">
         <CompletedLineOne />
         <OrderLineButton />
+        <CompletedList />
       </div>
       </div>
     </div>

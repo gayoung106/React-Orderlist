@@ -4,6 +4,7 @@ import Title from '../../components/Title/Title';
 import ErrorLineOne from "../../sideitem/Errororder/ErrorOrderLine/ErrorLineOne";
 import ErrorLineTwo from "../../sideitem/Errororder/ErrorOrderLine/ErrorLineTwo";
 import OrderLineButton from '../Totalorder/OrderLine/OrderLineButton';
+import ErrorList from './ErrorOrderLine/ErrorList';
 
 const Errororder = () => {
 
@@ -17,6 +18,7 @@ const Errororder = () => {
         <ErrorLineOne />
         <ErrorLineTwo />
         <OrderLineButton />
+        <ErrorList />
        </div>
       </div>
     </div>

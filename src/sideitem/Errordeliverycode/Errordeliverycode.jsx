@@ -4,6 +4,7 @@ import Title from '../../components/Title/Title'
 import CodeLineOne from './DeliveryCode/CodeLineOne'
 import CodeLineTwo from './DeliveryCode/CodeLineTwo'
 import OrderLineButton from '../Totalorder/OrderLine/OrderLineButton'
+import CodeList from './DeliveryCode/CodeList'
 
 const Errordeliverycode = () => {
   return (
@@ -13,6 +14,7 @@ const Errordeliverycode = () => {
        <CodeLineOne />
        <CodeLineTwo />
        <OrderLineButton />
+       <CodeList />
       </div>
     </div>
   )

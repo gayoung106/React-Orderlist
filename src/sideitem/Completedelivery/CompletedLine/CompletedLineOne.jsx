@@ -14,7 +14,7 @@ const CompletedLineOne = () => {
     {/* 주문통합검색*/}
     <div className="completed-wrapper">
       <div style={{ borderRight: '2px solid #dddddd', height: '80px', display: 'grid', alignItems: 'center'  }}>
-        <SelectBox options={OPTIONS2} customStyle={{width: '200px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px', marginRight: '30px'}} defaultValue="state" ></SelectBox>
+        <SelectBox options={OPTIONS2} customStyle={{width: '200px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px', marginLeft:'15px', marginRight: '30px'}} defaultValue="state" ></SelectBox>
       </div>
       <div style={{marginLeft: '28px'}}>
         <Input customStyle={{width: '900px', height:'80px', margin: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} />
