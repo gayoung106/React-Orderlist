@@ -29,11 +29,11 @@ const OrderLineOne = () => {
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS1} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
                 <div style={{marginLeft: '28px'}}>
-                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state" ></SelectBox>
+                    <SelectBox options={OPTIONS2} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state" ></SelectBox>
                 </div>
 
             </div>

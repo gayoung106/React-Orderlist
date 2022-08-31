@@ -20,8 +20,8 @@ const CodeLineTwo = () => {
                     <Text content="배송구분" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
 
-                <div style={{marginLeft: '28px', marginRight: '25px'}}>
-                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+                <div style={{marginLeft: '28px', marginRight: '24px'}}>
+                    <SelectBox options={OPTIONS1} customStyle={{fontFamily: 'Welcome', width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
             </div>

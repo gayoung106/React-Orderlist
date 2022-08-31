@@ -37,7 +37,7 @@ const OrderLineFive = () => {
                     <Text content="입점업체" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
                 <div style={{marginLeft: '28px', marginRight: '25px'}}>
-                    <SelectBox options={OPTIONS1} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS1} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
 
@@ -46,7 +46,7 @@ const OrderLineFive = () => {
                 </div>
 
                 <div style={{marginLeft: '26px', marginRight: '25px'}}>
-                    <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS2} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
 
                 <div style={{width: '130px', borderLeft: '2px solid #dddddd', }}>
@@ -54,7 +54,7 @@ const OrderLineFive = () => {
                 </div>
 
                 <div style={{marginLeft: '25px'}}>
-                    <SelectBox options={OPTIONS3} customStyle={{width: '80px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+                    <SelectBox options={OPTIONS3} customStyle={{fontFamily: 'Welcome',width: '80px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
                 <div >
                     <Input customStyle={{width: '140px', margin: '5px',  height: '20px', border: '1px solid #dddddd', borderRadius: '5px'}} />

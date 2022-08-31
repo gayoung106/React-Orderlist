@@ -39,7 +39,7 @@ const OPTIONS3 = [
         </div>
 
         <div style={{marginLeft: '26px', marginRight: '25px'}}>
-            <SelectBox options={OPTIONS2} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+            <SelectBox options={OPTIONS2} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
         </div>
 
         <div style={{width: '130px', borderLeft: '2px solid #dddddd', }}>
@@ -47,7 +47,7 @@ const OPTIONS3 = [
         </div>
 
         <div style={{marginLeft: '25px'}}>
-            <SelectBox options={OPTIONS3} customStyle={{width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
+            <SelectBox options={OPTIONS3} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
         </div>
         
 

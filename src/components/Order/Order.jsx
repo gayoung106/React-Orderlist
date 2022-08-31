@@ -33,11 +33,11 @@ const Order = (props) => {
                     <OrderLineButton />
 
                     <div style={{marginTop: '100px'}}>
-                        <Text content={notice1}  />
+                        <Text content={notice1} fontSize={'12px'} />
                     <br/>
-                        <Text content={notice2}  />
+                        <Text content={notice2} fontSize={'12px'} />
                     <br/>
-                        <Text content={notice3}  />
+                        <Text content={notice3} fontSize={'12px'} />
                     </div>
 
                     <OrderList />
