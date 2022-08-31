@@ -2,7 +2,7 @@ import React from 'react'
 import Text from '../Text/Text'
 
 const Title = (props) => {
-    const { content } = props;
+    const { content, sub } = props;
 
   return (
     <>
@@ -13,7 +13,7 @@ const Title = (props) => {
     <div className="sub-title">
         {/* <img className="check" alt="check-logo" src="img/check.png" /> */}
         <span> - </span>
-        <Text content={content} fontSize="20px" margin="10px" />
+        <Text content={sub} fontSize="20px" margin="10px" />
     </div>
     </>
   )

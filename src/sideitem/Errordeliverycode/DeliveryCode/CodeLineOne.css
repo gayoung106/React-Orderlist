@@ -1,0 +1,18 @@
+.code-wrapper {
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #DDDDDD;
+    align-items: center;
+
+    /*gap: 50px;*/
+    /*justify-content: space-around;*/
+}
+
+body {
+    font-family: "Welcome";
+}

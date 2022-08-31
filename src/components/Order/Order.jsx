@@ -14,12 +14,12 @@ import OrderList from "../../sideitem/Totalorder/OrderList";
 import Text from "../Text/Text";
 
 const Order = (props) => {
-    const { content,  notice1, notice2, notice3 } = props;
+    const { content,  sub, notice1, notice2, notice3 } = props;
 
     return (
         <div>
             <div className="table-wrap">
-                <Title content={content} />
+                <Title content={content} sub={sub}/>
                 <div className="total-orderlist-wrap">
                     <OrderLineOne />
                     <OrderLineTwo />
