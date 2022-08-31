@@ -11,7 +11,8 @@ const Title = (props) => {
     </div>
 
     <div className="sub-title">
-        <img className="check" alt="check-logo" src="img/check.png" />
+        {/* <img className="check" alt="check-logo" src="img/check.png" /> */}
+        <span> - </span>
         <Text content={content} fontSize="20px" margin="10px" />
     </div>
     </>

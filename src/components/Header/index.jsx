@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Text from "../Text/Text";
 
 
 const Header = () => {
@@ -8,20 +9,20 @@ const Header = () => {
       <div className="header-wrap">
  
           <div className="header-items">
-          <img className="bars" alt="bars" src="img/bars-solid.png" />
+         
           </div>
           <div className="header-items">
-          <img className="logo" alt="shinwon-logo" src="img/logo.png" />
+          <Text content="SHINWON" fontSize="45px"/>
           </div>
           <div className="header-items" id="menu-right">
             <div className="header-items-right">
-            <img className="setting" alt="setting" src="img/setting.png" />
+            
             </div>
             <div className="header-items-right">
-            <img className="setting" alt="logout" src="img/logout.png" />
+            
             </div>
             <div className="header-items-right">
-            <img className="menu-vertical" alt="menu" src="img/menu-vertical.png" />
+            
             </div>
           </div>
 
