@@ -29,14 +29,14 @@ const OrderLineEight = () => {
                 <div style={{width: '150px', borderRight: '2px solid #dddddd', }}>
                     <Text content="결제수단" customStyle={{fontSize:'13px', fontWeight:700, width: '200px', height: '70px', margin: '25px'}} />
                 </div>
-                <div style={{marginLeft: '28px'}}>
+                <div style={{marginLeft: '26px'}}>
                     <SelectBox options={OPTIONS1} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state"></SelectBox>
                 </div>
                 <div style={{marginLeft: '28px'}}>
                     <SelectBox options={OPTIONS2} customStyle={{fontFamily: 'Welcome',width: '225px', height: '25px', border: '1px solid #dddddd', borderRadius: '5px'}} defaultValue="state" disabled ></SelectBox>
                 </div>
                 <div>
-                    <label style={{marginRight: '92px'}}>
+                    <label style={{marginRight: '94px'}}>
                     <CheckBox /> 포인트사용
                     </label>
                 </div>
