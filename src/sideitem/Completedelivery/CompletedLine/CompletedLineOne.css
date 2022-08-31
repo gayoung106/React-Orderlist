@@ -1,3 +1,11 @@
-.order-wrapper-one {
+.completed-wrapper {
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
     height: 100px;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #DDDDDD;
+    align-items: center;
 }
