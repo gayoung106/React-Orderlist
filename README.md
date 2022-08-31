@@ -1,5 +1,5 @@
 ## Shinwon Orderlist
-신원 오더리스트 리액트로 변환
+오더리스트 리액트로 변환
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
